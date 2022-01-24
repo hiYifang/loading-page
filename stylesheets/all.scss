@@ -1,0 +1,14 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "./helpers/variables";
+@import "./helpers/utilities";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// 自訂字體
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap');
+@import "./helpers/base";
+
+// 自訂樣式
+@import "./components/header"; // index.html
+@import "./components/accordion"; // qa.html
+@import "./components/deco-line"; // pay.html
+@import "./components/custom-btn"; // pay.html
